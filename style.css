@@ -1,0 +1,330 @@
+body, ul, li, p{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size:1.2rem; 
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+html{
+    overflow-y: none;
+   
+}
+
+body{
+    background-color: rgb(214, 224, 224);
+}
+header{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: white;
+    padding: 50px;
+
+}
+#refresh{
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(241, 243, 242);
+    cursor: pointer;
+    position: relative;
+    bottom: 25px;
+    left: 20px;
+
+}
+#refresh:hover{
+    background-color: rgb(228, 171, 15);
+}
+
+
+#menu{
+    display: flex;
+    margin-top: 10px;
+   
+}
+header a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+ header li a  {
+    text-decoration: none;
+    color: rgb(65, 61, 61);
+    margin: 30px;
+    font-weight: 550;
+}
+.traço:hover{
+    width: 300px;
+    border-bottom: 2.3px solid rgb(219, 133, 4);
+}
+
+#p{
+    margin-left: 120px;
+}
+#cor{
+    cursor:auto;
+    padding: 80px;
+    background-color: rgb(238, 144, 22);
+
+}
+#sair{
+    color:rgb(238, 144, 22); 
+    font-size: 1rem;
+    margin-left: 38px;
+    display: flex;
+    
+}
+#sair:hover{
+    width: 95px;
+    border-bottom: 1px solid rgb(226, 142, 16);
+
+}
+#central{
+    margin: 0 auto;
+    height: 400px;
+    background-color: rgb(247, 244, 244);
+    padding-top: 200px;
+    position: relative;
+    top: -90px; 
+    max-width: 1000px;
+}
+
+#nome{
+    display: flex;
+    margin: -60px;
+}
+  
+#txt{
+    text-align: center;
+    margin-top: -80px;
+    font-size: 1.3rem;
+}
+#grupodeimagem {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+   
+}
+
+#eventos, #usuario, #relatorio{
+    cursor: pointer;
+    background-color: black;
+    padding: 40px;
+    border-radius: 30px;
+    height: 100px;
+    background: linear-gradient(to top, rgb(223, 223, 228), rgb(239, 241, 243) );
+}
+ 
+#oi{
+    padding-top: 15px;
+} 
+
+.b, a p{
+    font-weight: 550;
+    text-align:center;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(32, 31, 31);
+    margin-top: 20px;
+}
+footer p{
+  padding: 15px;
+  background-color: rgb(22, 21, 21);
+  color: beige;
+  text-align: center;
+  font-size: 15px;
+
+}
+.laranja{
+    color: rgb(238, 144, 22);
+}
+@media (max-width: 990px){
+    #refresh{
+        position: relative;
+        bottom: 40px;
+
+    } 
+
+
+    #menu{
+    margin-left: 30px;
+ }
+     
+    header li a {
+     margin-left: 80px;
+     margin: 10px;
+     font-size: 1rem;
+
+ }
+ body{
+    overflow-x:hidden;
+}
+ 
+ #logo{
+     margin-left: 100px;
+     width: 100px;
+     height: 80px;
+ }
+ 
+   #nome img{
+       position: relative;
+    margin-right: 300px;
+    top: 50px;
+     
+  }
+   
+   #nome2, #sair{
+    position: relative;
+    margin-right: 240px;
+    top: 50px;}
+
+    #sair:hover{
+        width: 100px;
+        border-bottom: 1px solid rgb(226, 142, 16)
+  }
+ }
+   
+@media (max-width: 570px){
+    #refresh{
+    position: relative;
+    bottom: 40px;
+    right: 200px;
+    font-size: 1rem;
+
+    }
+    header li a {
+        margin: 8px;
+        font-size: 15px;
+}
+#logo{
+   width: 100px;
+   height: 70px;
+}
+#menu{
+    position: relative;
+    margin-left: 80px;
+
+} #sair{
+    font-size: 14px;
+    position: relative;
+    right: 40px;
+} #sair:hover{
+    width:80px;
+    
+}
+#sair:hover{
+    width: 80px;
+    border-bottom: 1px solid rgb(226, 142, 16)
+}
+
+body{
+    overflow-x:hidden;
+}
+#oi{
+    margin-top: 1px;
+    font-size: 19px;
+}
+}
+
+
+
+@media (max-width: 407px){
+    #refresh{
+    display: none;
+      
+
+
+    }
+    
+    #sair:hover{
+        width: 50px;
+        border-bottom: 1px solid rgb(226, 142, 16)
+    }
+
+    header li a { 
+    font-size: 13px;
+     margin: 8px;
+        
+   }
+  #p, #sair, #nome{
+       box-sizing: border-box;
+       display: block;
+       margin-right: 80px;
+       margin-top: 0.2px;
+   }
+   #logo{
+    display: none;
+   }
+   #nome img{
+       width: 30px;
+       position: relative;
+       top: 2px;
+   }
+   #nome{
+       font-size: 8px;
+       margin-right: 10px;
+       color: brown;
+   }
+
+   #p{
+       width: 10px;
+       margin-left: 55px;
+       padding-left: 10px;
+   }
+   #sair{
+       display: none;
+   }
+   #oi{
+       font-size: 10px;
+     margin-top: -20px;
+   }
+   #oi1{
+       font-size: 14px;
+       margin-top: -5px;
+       margin-right: 10px;
+   }
+  
+   #grupodeimagem{
+       display: flex;
+      justify-content: center;
+      align-items: center;
+       flex-direction: column;
+       margin-top: 20px;
+ 
+   }
+   #eventos, #usario, #relatorio {
+       width: 40px;
+       height: 20px;
+   }
+
+   #grupodeimagem img{
+       width: 50px;
+   }
+
+  #cor{
+      padding: 20px;
+      width: 50px;
+      background-color: azure;
+  }
+  header{
+      width: 290px;
+      background-color: rgb(238, 144, 22);
+     
+  }
+  
+  #txt{
+    font-size: 14px;
+  }
+  main{
+    width: 408px;
+ 
+  }
+  #nome2{
+     color: blueviolet;
+       font-size: 15px;
+       position: relative;
+       right: 20px;
+       top: 30px;
+}
+
+ }
+
